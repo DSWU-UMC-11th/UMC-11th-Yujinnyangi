@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+
+    <style>
+        .card{
+            width: 90%;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 24px;
+
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+
+            box-sizing: border-box;
+        }
+                /* 3. 제목 색상 */
+        h1, h2 {
+            color: #2563eb;
+        }
+
+        /* 3. 본문 색상 */
+        p {
+            color: #475569;
+        }
+
+        /* 4. 기술 목록 Flexbox */
+        .skills {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            list-style: none;
+            padding: 0;
+        }
+
+        /* 5. 버튼 기본 색상 */
+        button {
+            background: #2563eb;
+            color: white;
+        }
+
+        /* 마우스를 버튼 위에 올렸을 때 */
+        button:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+    <header>
+        <h1>김유진</h1>
+        <p>안녕하세요. 웹 개발을 배우고 있는 김유진입니다.</p>
+    </header>
+
+    <main>
+        <section>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section>
+            <h2>자주 방문하는 사이트
+            </h2>
+
+            <a href="https://github.com/" target="_blank">
+                GitHub 바로가기
+            </a>
+        </section>
+
+        <section>
+            <h2>버튼</h2>
+            <button>클릭하세요</button>
+
+        </section>
+    </main>
+    </div>
+</body>
+</html>
